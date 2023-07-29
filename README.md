@@ -17,5 +17,3 @@
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=yuni6x&show_icons=true&locale=en&layout=compact" alt="yuni6x" /></p>
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=yuni6x&show_icons=true&locale=en" alt="yuni6x" /></p>
-
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=yuni6x&" alt="yuni6x" /></p>
