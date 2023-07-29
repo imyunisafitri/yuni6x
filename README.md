@@ -2,7 +2,9 @@
 <h3 align="center">A Junior Web Developer</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=yuni6x&label=Profile%20views&color=0e75b6&style=flat" alt="yuni6x" /> </p>
-As a Junior Web Developer, I have expertise in HTML, CSS, JavaScript, and the use of React and Next frameworks. I possess the ability to create engaging, responsive, and user-friendly websites. I am always eager to learn new things and ready to make meaningful contributions in web development projects. I believe that my dedication and hard work will help me become a skilled and successful Web Developer in this career.
+<p>
+  I am a Junior Web Developer, I have expertise in HTML, CSS, JavaScript, and the use of React and Next frameworks. I possess the ability to create engaging, responsive, and user-friendly websites. I am always eager to learn new things and ready to make meaningful contributions in web development projects. I believe that my dedication and hard work will help me become a skilled and successful Web Developer in this career.
+</p>
 <br />
 - 🌱 I’m currently learning **Next.Js**
 
