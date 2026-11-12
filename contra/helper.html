@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><title>Contra helper</title></head>
+<body style="font-family:sans-serif;padding:40px">
+<button id="go" style="font-size:32px;padding:24px">OPEN CONTRA</button>
+<pre id="log"></pre>
+<script>
+const NAMES = ['1-cover','2-showcase','3-emailA','4-emailB','5-emailC'];
+function log(s){ document.getElementById('log').textContent += s + '\n'; }
+document.getElementById('go').onclick = () => {
+  window.__w = window.open('https://contra.com/yuni_safitri_1krjppax/work?view=drafts', 'contraTab');
+  log('opened: ' + !!window.__w);
+};
+window.sendBrand = async (num) => {
+  const p = String(num).padStart(2,'0');
+  const files = [];
+  for (const n of NAMES) {
+    const r = await fetch(`C${p}-${n}.jpg`);
+    if (!r.ok) continue;
+    files.push({ name: `C${p}-${n}.jpg`, blob: await r.blob() });
+  }
+  window.__w.postMessage({ contraFiles: files, brand: p }, 'https://contra.com');
+  log('sent ' + p + ': ' + files.length);
+  return files.map(f => f.name + ':' + f.blob.size);
+};
+</script>
+</body></html>
